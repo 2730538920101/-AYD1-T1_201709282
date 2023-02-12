@@ -15,4 +15,8 @@ router.post('/calculadora', (req, res)=>{
     res.send(msj);
 });
 
+router.get('/info', (req,res)=>{
+    res.send(result);
+});
+
 module.exports = router;
